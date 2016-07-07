@@ -3,10 +3,10 @@ LICENSE = "MIT | Apache-2.0"
 LIC_FILES_CHKSUM = \
 "file://README.md;beginline=1;endline=2;md5=e5b4c4b4ef35489d85664eeb98d16a49"
 
-SRC_URI = "git://github.com/advancedtelematic/ota-plus-client.git;protocol=ssh;branch=master"
+SRC_URI = "git://github.com/advancedtelematic/ota-plus-client.git;protocol=ssh;branch=stable"
 S = "${WORKDIR}/git"
 
-SRCREV = "${AUTOREV}"
+SRCREV = "7787b00667b306b82d7e2a8f17b932fb73bd486b"
 
 inherit systemd cargo
 
