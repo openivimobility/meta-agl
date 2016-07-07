@@ -2,8 +2,8 @@ SUMMARY = "Tool for managing bootable, immutable, versioned filesystem trees"
 LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://COPYING;md5=5f30f0716dfdd0d91eb439ebec522ec2"
 
-SRC_URI = "gitsm://git.gnome.org/ostree.git;branch=master"
-SRCREV="${AUTOREV}"
+SRC_URI = "git://github.com/openivimobility/ostree.git;protocol=ssh;branch=master"
+SRCREV="cea824293732300f268fd915812af77342afbd40"
 
 S = "${WORKDIR}/git"
 
