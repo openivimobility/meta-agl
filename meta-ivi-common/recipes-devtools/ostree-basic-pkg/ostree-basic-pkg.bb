@@ -4,6 +4,7 @@ LIC_FILES_CHKSUM = \
 "file://${S}/README.md;beginline=1;endline=2;md5=c02776b897cc43f60d2c98cc545094b2"
 
 SRC_URI = "git://github.com/advancedtelematic/ostree-basic-pkg.git;protocol=ssh;branch=master"
+SRCREV = "${AUTOREV}"
 
 FILES_${PN} = " \
                 ${bindir}/otbpkg \
