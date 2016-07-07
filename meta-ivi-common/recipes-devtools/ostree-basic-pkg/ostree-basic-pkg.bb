@@ -5,6 +5,7 @@ LIC_FILES_CHKSUM = \
 
 SRC_URI = "git://github.com/advancedtelematic/ostree-basic-pkg.git;protocol=ssh;branch=master"
 SRCREV = "${AUTOREV}"
+S = "${WORKDIR}/git"
 
 FILES_${PN} = " \
                 ${bindir}/otbpkg \
