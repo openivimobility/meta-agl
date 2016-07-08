@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = \
 SRC_URI = "git://github.com/advancedtelematic/ota-plus-client.git;protocol=ssh;branch=stable-otb"
 S = "${WORKDIR}/git"
 
-SRCREV = "7787b00667b306b82d7e2a8f17b932fb73bd486b"
+SRCREV = "${AUTOREV}"
 
 inherit systemd cargo
 
