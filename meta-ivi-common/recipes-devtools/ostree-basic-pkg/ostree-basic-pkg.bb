@@ -7,6 +7,8 @@ SRC_URI = "git://github.com/advancedtelematic/ostree-basic-pkg.git;protocol=ssh;
 SRCREV = "${AUTOREV}"
 S = "${WORKDIR}/git"
 
+PV = "1.0+${SRCPV}"
+
 FILES_${PN} = " \
                 ${bindir}/otbpkg \
               "
@@ -19,4 +21,3 @@ do_install() {
   install -m 0755 ${S}/otbpkg ${D}${bindir}
 
 }
-
